@@ -5,10 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompilers" num="93" delta="new" ><arg fmt="%s" index="1">&quot;../src/TemperatureCalculator.v&quot; line 31 </arg>Too few port connections in instance &apos;<arg fmt="%s" index="2">a</arg>&apos; of module &apos;<arg fmt="%s" index="3">Adder8bit</arg>&apos;
+</msg>
+
 <msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;../src/BloodTypeClassification.v&quot; line 28 </arg>Connection to input port &apos;<arg fmt="%s" index="2">D</arg>&apos; does not match port size
 </msg>
 
 <msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;../src/TemperatureAbnormalityDetector.v&quot; line 36 </arg>Connection to output port &apos;<arg fmt="%s" index="2">temperature</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../src/TemperatureCalculator.v&quot; line 31 </arg>Connection to input port &apos;<arg fmt="%s" index="2">cin</arg>&apos; does not match port size
 </msg>
 
 <msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;../src/TemperatureAbnormalityDetector.v&quot; line 40 </arg>Connection to input port &apos;<arg fmt="%s" index="2">temperature</arg>&apos; does not match port size
@@ -17,13 +23,30 @@
 <msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">../src/GlycemicIndexCalculator.v</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">GlycemicIndexCalculator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">../src/TemperatureCalculator.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">TemperatureCalculator</arg>&gt;.
-</msg>
-
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pData&lt;1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">cin</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">bloodType&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">temperature&lt;7:1&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">temperature&lt;0&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">res&lt;2:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">m</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">TemperatureCalculatorUnit</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">a</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">TemperatureCalculatorUnit</arg>&gt;.
+It will be removed from the design.
 </msg>
 
 <msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">BloodPHAnalyzerUnit</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">BloodAbnormalityDetectorUnit</arg>&gt;.

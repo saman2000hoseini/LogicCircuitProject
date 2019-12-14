@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
  
 --> Reading design: HealthcareSystemFirstPhase.prj
 
@@ -105,8 +105,12 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling verilog file "../MUX4_1.v" in library work
-Compiling verilog file "../src/TemperatureCalculator.v" in library work
+Compiling verilog file "../Multiplier.v" in library work
 Module <MUX4_1> compiled
+Compiling verilog file "../Adder8bit.v" in library work
+Module <Multiplier> compiled
+Compiling verilog file "../src/TemperatureCalculator.v" in library work
+Module <Adder8bit> compiled
 Compiling verilog file "../src/TemperatureAnalyzer.v" in library work
 Module <TemperatureCalculator> compiled
 Compiling verilog file "../src/PressureAnalyzer.v" in library work
@@ -159,9 +163,15 @@ Analyzing hierarchy for module <BloodTypeClassification> in library <work>.
 
 Analyzing hierarchy for module <Comparator8Bit> in library <work>.
 
+Analyzing hierarchy for module <TemperatureCalculator> in library <work>.
+
 Analyzing hierarchy for module <TemperatureAnalyzer> in library <work>.
 
 Analyzing hierarchy for module <MUX4_1> in library <work>.
+
+Analyzing hierarchy for module <Multiplier> in library <work>.
+
+Analyzing hierarchy for module <Adder8bit> in library <work>.
 
 
 =========================================================================
@@ -199,8 +209,16 @@ Analyzing module <Comparator8Bit> in library <work>.
 Module <Comparator8Bit> is correct for synthesis.
  
 Analyzing module <TemperatureAbnormalityDetector> in library <work>.
-WARNING:Xst:2211 - "../src/TemperatureCalculator.v" line 32: Instantiating black box module <TemperatureCalculator>.
 Module <TemperatureAbnormalityDetector> is correct for synthesis.
+ 
+Analyzing module <TemperatureCalculator> in library <work>.
+Module <TemperatureCalculator> is correct for synthesis.
+ 
+Analyzing module <Multiplier> in library <work>.
+Module <Multiplier> is correct for synthesis.
+ 
+Analyzing module <Adder8bit> in library <work>.
+Module <Adder8bit> is correct for synthesis.
  
 Analyzing module <TemperatureAnalyzer> in library <work>.
 Module <TemperatureAnalyzer> is correct for synthesis.
@@ -255,6 +273,23 @@ Synthesizing Unit <TemperatureAnalyzer>.
 Unit <TemperatureAnalyzer> synthesized.
 
 
+Synthesizing Unit <Multiplier>.
+    Related source file is "../Multiplier.v".
+    Found 4x4-bit multiplier for signal <C>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <Multiplier> synthesized.
+
+
+Synthesizing Unit <Adder8bit>.
+    Related source file is "../Adder8bit.v".
+WARNING:Xst:647 - Input <cin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit adder carry out for signal <res$addsub0000>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Adder8bit> synthesized.
+
+
 Synthesizing Unit <PressureAbnormalityDetector>.
     Related source file is "../src/PressureAbnormalityDetector.v".
 Unit <PressureAbnormalityDetector> synthesized.
@@ -265,20 +300,28 @@ Synthesizing Unit <FallingDetector>.
 Unit <FallingDetector> synthesized.
 
 
-Synthesizing Unit <TemperatureAbnormalityDetector>.
-    Related source file is "../src/TemperatureAbnormalityDetector.v".
-Unit <TemperatureAbnormalityDetector> synthesized.
-
-
 Synthesizing Unit <BloodTypeClassification>.
     Related source file is "../src/BloodTypeClassification.v".
 WARNING:Xst:647 - Input <bloodType<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <BloodTypeClassification> synthesized.
 
 
+Synthesizing Unit <TemperatureCalculator>.
+    Related source file is "../src/TemperatureCalculator.v".
+WARNING:Xst:1305 - Output <temperature<7:1>> is never assigned. Tied to value 0000000.
+WARNING:Xst:1305 - Output <temperature<0>> is never assigned. Tied to value 0.
+WARNING:Xst:646 - Signal <res<2:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <TemperatureCalculator> synthesized.
+
+
 Synthesizing Unit <BloodAbnormalityDetector>.
     Related source file is "../src/BloodAbnormalityDetector.v".
 Unit <BloodAbnormalityDetector> synthesized.
+
+
+Synthesizing Unit <TemperatureAbnormalityDetector>.
+    Related source file is "../src/TemperatureAbnormalityDetector.v".
+Unit <TemperatureAbnormalityDetector> synthesized.
 
 
 Synthesizing Unit <HealthcareSystemFirstPhase>.
@@ -290,6 +333,10 @@ Unit <HealthcareSystemFirstPhase> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
+# Multipliers                                          : 1
+ 4x4-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 1
+ 8-bit adder carry out                                 : 1
 # Comparators                                          : 5
  8-bit comparator equal                                : 1
  8-bit comparator greater                              : 2
@@ -303,6 +350,10 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+WARNING:Xst:1290 - Hierarchical block <m> is unconnected in block <TemperatureCalculatorUnit>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <a> is unconnected in block <TemperatureCalculatorUnit>.
+   It will be removed from the design.
 WARNING:Xst:1290 - Hierarchical block <BloodPHAnalyzerUnit> is unconnected in block <BloodAbnormalityDetectorUnit>.
    It will be removed from the design.
 WARNING:Xst:1290 - Hierarchical block <BloodTypeClassificationUnit> is unconnected in block <BloodAbnormalityDetectorUnit>.
@@ -312,6 +363,10 @@ WARNING:Xst:1290 - Hierarchical block <BloodTypeClassificationUnit> is unconnect
 Advanced HDL Synthesis Report
 
 Macro Statistics
+# Multipliers                                          : 1
+ 4x4-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 1
+ 8-bit adder carry out                                 : 1
 # Comparators                                          : 5
  8-bit comparator equal                                : 1
  8-bit comparator greater                              : 2
@@ -374,12 +429,11 @@ Cell Usage :
 #      LUT4                        : 8
 #      MUXCY                       : 8
 #      VCC                         : 1
-# IO Buffers                       : 54
-#      IBUF                        : 46
+# IO Buffers                       : 38
+#      IBUF                        : 30
 #      OBUF                        : 8
-# Others                           : 2
+# Others                           : 1
 #      GlycemicIndexCalculator     : 1
-#      TemperatureCalculator       : 1
 =========================================================================
 
 Device utilization summary:
@@ -390,7 +444,7 @@ Selected Device : 3s400pq208-5
  Number of Slices:                        9  out of   3584     0%  
  Number of 4 input LUTs:                 17  out of   7168     0%  
  Number of IOs:                          61
- Number of bonded IOBs:                  54  out of    141    38%  
+ Number of bonded IOBs:                  38  out of    141    26%  
 
 ---------------------------
 Partition Resource Summary:
@@ -431,7 +485,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 78 / 30
+  Total number of paths / destination ports: 62 / 14
 -------------------------------------------------------------------------
 Delay:               11.717ns (Levels of Logic = 6)
   Source:            fdSensorValue<4> (PAD)
@@ -454,14 +508,14 @@ Delay:               11.717ns (Levels of Logic = 6)
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 3.96 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.57 secs
  
 --> 
 
-Total memory usage is 4521648 kilobytes
+Total memory usage is 4521776 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   13 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

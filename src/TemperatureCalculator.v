@@ -26,7 +26,8 @@ input [7:0] factoryBaseTemp;
 input [3:0] factoryTempCoef;
 input [3:0] tempSensorValue;
 output [7:0] temperature;
-
-   // write your code here, please.
+wire [7:0] res;
+Multiplier m(tempSensorValue , factoryTempCoef , res);
+Adder8bit a({3'b000 , res[7:3]} , factoryBaseTemp, temperature);
 
 endmodule
