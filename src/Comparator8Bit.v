@@ -27,7 +27,9 @@ input [7:0] inputQ;
 output pLessThanQ;
 output pEqualToQ;
 output pGraterGreaterThanQ;
-
+assign pLessThanQ = inputP < inputQ ? 1'b1 :1'b0 ;
+assign pEqualToQ = inputP == inputQ ? 1'b1 :1'b0 ;
+assign pGraterGreaterThanQ = inputP > inputQ ? 1'b1 :1'b0 ;
    // write your code here, please.
 
 endmodule

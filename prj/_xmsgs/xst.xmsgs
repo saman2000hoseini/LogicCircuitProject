@@ -17,9 +17,6 @@
 <msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">../src/GlycemicIndexCalculator.v</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">GlycemicIndexCalculator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">../src/Comparator8Bit.v</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Comparator8Bit</arg>&gt;.
-</msg>
-
 <msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">../src/TemperatureCalculator.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">TemperatureCalculator</arg>&gt;.
 </msg>
 
@@ -29,11 +26,11 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">bloodType&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">BloodPHAnalyzerUnit</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">BloodAbnormalityDetectorUnit</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">BloodPHAnalyzerUnit</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">BloodAbnormalityDetectorUnit</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">BloodTypeClassificationUnit</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">BloodAbnormalityDetectorUnit</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">BloodTypeClassificationUnit</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">BloodAbnormalityDetectorUnit</arg>&gt;.
 It will be removed from the design.
 </msg>
 
