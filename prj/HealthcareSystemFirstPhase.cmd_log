@@ -33,5 +33,8 @@ xst -intstyle ise -ifn "E:/University/Logic Lab/LogicCircuitProject/prj/Healthca
 xst -intstyle ise -ifn "E:/University/Logic Lab/LogicCircuitProject/prj/HealthcareSystemFirstPhase.xst" -ofn "E:/University/Logic Lab/LogicCircuitProject/prj/HealthcareSystemFirstPhase.syr" 
 xst -intstyle ise -ifn "E:/University/Logic Lab/LogicCircuitProject/prj/HealthcareSystemFirstPhase.xst" -ofn "E:/University/Logic Lab/LogicCircuitProject/prj/HealthcareSystemFirstPhase.syr" 
 xst -intstyle ise -ifn "E:/University/Logic Lab/LogicCircuitProject/prj/HealthcareSystemFirstPhase.xst" -ofn "E:/University/Logic Lab/LogicCircuitProject/prj/HealthcareSystemFirstPhase.syr" 
+<<<<<<< HEAD
 xst -intstyle ise -ifn "C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/HealthcareSystemFirstPhase.xst" -ofn "C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/HealthcareSystemFirstPhase.syr" 
 xst -intstyle ise -ifn "C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/HealthcareSystemFirstPhase.xst" -ofn "C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/HealthcareSystemFirstPhase.syr" 
+=======
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6

@@ -1,6 +1,9 @@
 verilog work "../dec24.v"
+<<<<<<< HEAD
 verilog work "../comparator3bit.v"
 verilog work "../src/Comparator8Bit.v"
+=======
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
 verilog work "../MUX4_1.v"
 verilog work "../Multiplier.v"
 verilog work "../dec4_16.v"

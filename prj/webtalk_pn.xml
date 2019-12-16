@@ -3,7 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
+<<<<<<< HEAD
 <application name="pn" timeStamp="Mon Dec 16 22:52:24 2019">
+=======
+<application name="pn" timeStamp="Mon Dec 16 21:24:52 2019">
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="B93134C1511A41349BC6BAF577187F5E" type="project"/>
 <property name="ProjectIteration" value="0" type="project"/>
@@ -36,7 +40,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-5" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
+<<<<<<< HEAD
 <property name="FILE_VERILOG" value="24" type="source"/>
+=======
+<property name="FILE_VERILOG" value="23" type="source"/>
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
 </section>
 </application>
 </document>

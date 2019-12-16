@@ -65,11 +65,39 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+<<<<<<< HEAD
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
+=======
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Adder8bit.v"/>
+      <outfile xil_pn:name="../GlycemicIndex_test.v"/>
+      <outfile xil_pn:name="../MUX4_1.v"/>
+      <outfile xil_pn:name="../Multiplier.v"/>
+      <outfile xil_pn:name="../dec24.v"/>
+      <outfile xil_pn:name="../dec4_16.v"/>
+      <outfile xil_pn:name="../dec5_32.v"/>
+      <outfile xil_pn:name="../onesCounter4bit.v"/>
+      <outfile xil_pn:name="../onesCounter_test.v"/>
+      <outfile xil_pn:name="../src/BloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../src/BloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="../src/BloodTypeClassification.v"/>
+      <outfile xil_pn:name="../src/Comparator8Bit.v"/>
+      <outfile xil_pn:name="../src/FallingDetector.v"/>
+      <outfile xil_pn:name="../src/GlycemicIndexCalculator.v"/>
+      <outfile xil_pn:name="../src/HealthcareSystemFirstPhase.v"/>
+      <outfile xil_pn:name="../src/HealthcareSystemFirstPhaseTestbench.v"/>
+      <outfile xil_pn:name="../src/ParityErrorChecker.v"/>
+      <outfile xil_pn:name="../src/PressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../src/PressureAnalyzer.v"/>
+      <outfile xil_pn:name="../src/TemperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../src/TemperatureAnalyzer.v"/>
+      <outfile xil_pn:name="../src/TemperatureCalculator.v"/>
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
     </transform>
     <transform xil_pn:end_ts="1576506196" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9098026309743356943" xil_pn:start_ts="1576506196">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -90,6 +118,7 @@
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+<<<<<<< HEAD
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
@@ -97,23 +126,72 @@
     <transform xil_pn:end_ts="1576518766" xil_pn:in_ck="-844739743416942140" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-9165306926005150904" xil_pn:start_ts="1576518764">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="NotReadyToRun"/>
+=======
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Adder8bit.v"/>
+      <outfile xil_pn:name="../GlycemicIndex_test.v"/>
+      <outfile xil_pn:name="../MUX4_1.v"/>
+      <outfile xil_pn:name="../Multiplier.v"/>
+      <outfile xil_pn:name="../dec24.v"/>
+      <outfile xil_pn:name="../dec4_16.v"/>
+      <outfile xil_pn:name="../dec5_32.v"/>
+      <outfile xil_pn:name="../onesCounter4bit.v"/>
+      <outfile xil_pn:name="../onesCounter_test.v"/>
+      <outfile xil_pn:name="../src/BloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../src/BloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="../src/BloodTypeClassification.v"/>
+      <outfile xil_pn:name="../src/Comparator8Bit.v"/>
+      <outfile xil_pn:name="../src/FallingDetector.v"/>
+      <outfile xil_pn:name="../src/GlycemicIndexCalculator.v"/>
+      <outfile xil_pn:name="../src/HealthcareSystemFirstPhase.v"/>
+      <outfile xil_pn:name="../src/HealthcareSystemFirstPhaseTestbench.v"/>
+      <outfile xil_pn:name="../src/ParityErrorChecker.v"/>
+      <outfile xil_pn:name="../src/PressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../src/PressureAnalyzer.v"/>
+      <outfile xil_pn:name="../src/TemperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../src/TemperatureAnalyzer.v"/>
+      <outfile xil_pn:name="../src/TemperatureCalculator.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1576518766" xil_pn:in_ck="-844739743416942140" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-9165306926005150904" xil_pn:start_ts="1576518764">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+<<<<<<< HEAD
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
+=======
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="GlycemicIndex_test_beh.prj"/>
+      <outfile xil_pn:name="GlycemicIndex_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
     </transform>
     <transform xil_pn:end_ts="1576518766" xil_pn:in_ck="1232940140500530750" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1420815912371444885" xil_pn:start_ts="1576518766">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
+=======
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="GlycemicIndex_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
     </transform>
     <transform xil_pn:end_ts="1576325726" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1576325726">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -143,7 +221,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1576524150" xil_pn:in_ck="8723916676715027528" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="8253484054301598929" xil_pn:start_ts="1576524143">
+=======
+    <transform xil_pn:end_ts="1576518898" xil_pn:in_ck="1971621124807626266" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="8253484054301598929" xil_pn:start_ts="1576518892">
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>

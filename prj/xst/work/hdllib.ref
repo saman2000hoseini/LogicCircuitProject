@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MO FallingDetector NULL ../src/FallingDetector.v vlg03/_falling_detector.bin 1576524146
 MO comparator3bit NULL ../comparator3bit.v vlg26/comparator3bit.bin 1576524145
 MO Comparator8Bit NULL ../src/Comparator8Bit.v vlg57/_comparator8_bit.bin 1576524145
@@ -18,3 +19,24 @@ MO PressureAnalyzer NULL ../src/PressureAnalyzer.v vlg47/_pressure_analyzer.bin 
 MO dec24 NULL ../dec24.v vlg4E/dec24.bin 1576524145
 MO BloodPHAnalyzer NULL ../src/BloodPHAnalyzer.v vlg72/_blood_p_h_analyzer.bin 1576524145
 MO HealthcareSystemFirstPhase NULL ../src/HealthcareSystemFirstPhase.v vlg07/_healthcare_system_first_phase.bin 1576524146
+=======
+MO FallingDetector NULL ../src/FallingDetector.v vlg03/_falling_detector.bin 1576518893
+MO Comparator8Bit NULL ../src/Comparator8Bit.v vlg57/_comparator8_bit.bin 1576518893
+MO Multiplier NULL ../Multiplier.v vlg5B/_multiplier.bin 1576518893
+MO PressureAbnormalityDetector NULL ../src/PressureAbnormalityDetector.v vlg41/_pressure_abnormality_detector.bin 1576518893
+MO onesCounter4bit NULL ../onesCounter4bit.v vlg30/ones_counter4bit.bin 1576518893
+MO BloodAbnormalityDetector NULL ../src/BloodAbnormalityDetector.v vlg08/_blood_abnormality_detector.bin 1576518893
+MO BloodTypeClassification NULL ../src/BloodTypeClassification.v vlg76/_blood_type_classification.bin 1576518893
+MO dec4_16 NULL ../dec4_16.v vlg76/dec4__16.bin 1576518893
+MO GlycemicIndexCalculator NULL ../src/GlycemicIndexCalculator.v vlg67/_glycemic_index_calculator.bin 1576518893
+MO TemperatureAnalyzer NULL ../src/TemperatureAnalyzer.v vlg68/_temperature_analyzer.bin 1576518893
+MO ParityErrorChecker NULL ../src/ParityErrorChecker.v vlg0C/_parity_error_checker.bin 1576518893
+MO MUX4_1 NULL ../MUX4_1.v vlg0E/_m_u_x4__1.bin 1576518893
+MO TemperatureAbnormalityDetector NULL ../src/TemperatureAbnormalityDetector.v vlg3E/_temperature_abnormality_detector.bin 1576518893
+MO TemperatureCalculator NULL ../src/TemperatureCalculator.v vlg7C/_temperature_calculator.bin 1576518893
+MO Adder8bit NULL ../Adder8bit.v vlg5F/_adder8bit.bin 1576518893
+MO PressureAnalyzer NULL ../src/PressureAnalyzer.v vlg47/_pressure_analyzer.bin 1576518893
+MO dec24 NULL ../dec24.v vlg4E/dec24.bin 1576518893
+MO BloodPHAnalyzer NULL ../src/BloodPHAnalyzer.v vlg72/_blood_p_h_analyzer.bin 1576518893
+MO HealthcareSystemFirstPhase NULL ../src/HealthcareSystemFirstPhase.v vlg07/_healthcare_system_first_phase.bin 1576518893
+>>>>>>> 80ec12c27dcd227d5e458260e00ed697676859c6
