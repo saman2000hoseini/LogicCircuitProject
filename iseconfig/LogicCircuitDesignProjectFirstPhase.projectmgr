@@ -10,16 +10,23 @@
          <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Ali|Desktop|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector</ClosedNode>
          <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Ali|Desktop|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/FallingDetectorUnit - FallingDetector</ClosedNode>
          <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Ali|Desktop|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/TemperatureAbnormalityDetectorUnit - TemperatureAbnormalityDetector</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector/BloodPHAnalyzerUnit - BloodPHAnalyzer</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/FallingDetectorUnit - FallingDetector</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/GlycemicIndexCalculator - GlycemicIndexCalculator</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v/TemperatureAbnormalityDetectorUnit - TemperatureAbnormalityDetector/TemperatureCalculatorUnit - TemperatureCalculator/a - Adder8bit</ClosedNode>
          <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Ali|Desktop|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase</ClosedNode>
+         <ClosedNode>/dec5_32 C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|dec5_32.v/dec1 - dec4_16</ClosedNode>
+         <ClosedNode>/dec5_32 C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|dec5_32.v/dec2 - dec4_16</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>HealthcareSystemFirstPhase (C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/src/HealthcareSystemFirstPhase.v)</SelectedItem>
+         <SelectedItem>ParityErrorCheckerUnit - ParityErrorChecker (C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/src/ParityErrorChecker.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002a3000000020000000000000000000000000200000064ffffffff000000810000000300000002000002a30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>HealthcareSystemFirstPhase (C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/src/HealthcareSystemFirstPhase.v)</CurrentItem>
+      <CurrentItem>ParityErrorCheckerUnit - ParityErrorChecker (C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/src/ParityErrorChecker.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -31,13 +38,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -67,15 +74,29 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/HealthcareSystemFirstPhase C:|Users|Ali|Desktop|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhase.v</ClosedNode>
          <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Ali|Desktop|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector/BloodPHAnalyzerUnit - BloodPHAnalyzer</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector/BloodTypeClassificationUnit - BloodTypeClassification</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/FallingDetectorUnit - FallingDetector</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/GlycemicIndexCalculator - GlycemicIndexCalculator</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/TemperatureAbnormalityDetectorUnit - TemperatureAbnormalityDetector</ClosedNode>
+         <ClosedNode>/HealthcareSystemFirstPhaseTestbench C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|src|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/TemperatureAbnormalityDetectorUnit - TemperatureAbnormalityDetector/TemperatureCalculatorUnit - TemperatureCalculator</ClosedNode>
+         <ClosedNode>/adderTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|adderTest.v</ClosedNode>
+         <ClosedNode>/bloodAbnormalityTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|bloodAbnormalityTest.v</ClosedNode>
+         <ClosedNode>/fallingTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|fallingTest.v</ClosedNode>
+         <ClosedNode>/multiplierTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|multiplierTest.v</ClosedNode>
+         <ClosedNode>/pressureTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|pressureTest.v</ClosedNode>
+         <ClosedNode>/pressureTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|pressureTest.v/uut - PressureAbnormalityDetector</ClosedNode>
+         <ClosedNode>/temperatureTest C:|Users|Saman|LogicCircuitDesignProjectFirstPhase|temperatureTest.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xc3s400-5pq208</SelectedItem>
+         <SelectedItem>pressureTest (C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/pressureTest.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000267000000020000000000000000000000000200000064ffffffff000000810000000300000002000002670000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>xc3s400-5pq208</CurrentItem>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002b7000000020000000000000000000000000200000064ffffffff000000810000000300000002000002b70000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>pressureTest (C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/pressureTest.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -83,30 +104,29 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001dd000000010000000100000000000000000000000064ffffffff000000810000000000000001000001dd0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>ISim Simulator</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001dd000000010000000100000000000000000000000064ffffffff000000810000000000000001000001dd0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
@@ -114,9 +134,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" />
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>

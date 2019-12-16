@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-`default_nettype none
 
 /*
 **********************************************************
@@ -27,7 +26,7 @@ input [3:0] factoryTempCoef;
 input [3:0] tempSensorValue;
 output temperatureAbnormality;
 
-wire temperature;
+wire [7:0]temperature;
 
   TemperatureCalculator TemperatureCalculatorUnit(
    		.factoryBaseTemp(factoryBaseTemp),

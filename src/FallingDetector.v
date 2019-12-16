@@ -33,6 +33,6 @@ wire pEqualToQ, pGraterGreaterThanQ;
 		.pGraterGreaterThanQ(pGraterGreaterThanQ)
 		);
    
-   assign fallDetected = pEqualToQ | pGraterGreaterThanQ;
+   or oa(fallDetected,pEqualToQ,pGraterGreaterThanQ);
 
 endmodule

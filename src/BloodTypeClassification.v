@@ -22,7 +22,7 @@ module BloodTypeClassification(
         bloodClass);
 input [2:0] bloodType;
 output bloodClass;
-	wire res;
+	wire [3:0]res;
 	assign res = { 1'b0,bloodType[0],1'b0,1'b1};
 	MUX4_1 mux(res,bloodType[2:1],bloodClass);
 endmodule
