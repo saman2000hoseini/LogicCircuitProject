@@ -36,10 +36,14 @@
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="HealthcareSystemFirstPhase_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="adderTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bloodAbnormalityTest_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="bloodAbnormalityTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="bloodAbnormalityTest_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fallingTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multiplierTest_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="temperatureTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -50,20 +54,12 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1576529311" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1576529311">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1576535635" xil_pn:in_ck="-5412289641384837442" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1576535635">
+    <transform xil_pn:end_ts="1576537273" xil_pn:in_ck="-4879801923824959461" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1576537273">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../Adder8bit.v"/>
-      <outfile xil_pn:name="../MUX4_1.v"/>
-      <outfile xil_pn:name="../Multiplier.v"/>
-      <outfile xil_pn:name="../adderTest.v"/>
-      <outfile xil_pn:name="../bloodAbnormalityTest.v"/>
-      <outfile xil_pn:name="../comparator3bit.v"/>
-      <outfile xil_pn:name="../fallingTest.v"/>
-      <outfile xil_pn:name="../multiplierTest.v"/>
-      <outfile xil_pn:name="../onesCounter4bit.v"/>
-      <outfile xil_pn:name="../pressureTest.v"/>
+      <outfile xil_pn:name="../src/Adder8bit.v"/>
       <outfile xil_pn:name="../src/BloodAbnormalityDetector.v"/>
       <outfile xil_pn:name="../src/BloodPHAnalyzer.v"/>
       <outfile xil_pn:name="../src/BloodTypeClassification.v"/>
@@ -72,19 +68,28 @@
       <outfile xil_pn:name="../src/GlycemicIndexCalculator.v"/>
       <outfile xil_pn:name="../src/HealthcareSystemFirstPhase.v"/>
       <outfile xil_pn:name="../src/HealthcareSystemFirstPhaseTestbench.v"/>
+      <outfile xil_pn:name="../src/MUX4_1.v"/>
+      <outfile xil_pn:name="../src/Multiplier.v"/>
       <outfile xil_pn:name="../src/ParityErrorChecker.v"/>
       <outfile xil_pn:name="../src/PressureAbnormalityDetector.v"/>
       <outfile xil_pn:name="../src/PressureAnalyzer.v"/>
       <outfile xil_pn:name="../src/TemperatureAbnormalityDetector.v"/>
       <outfile xil_pn:name="../src/TemperatureAnalyzer.v"/>
       <outfile xil_pn:name="../src/TemperatureCalculator.v"/>
-      <outfile xil_pn:name="../temperatureTest.v"/>
+      <outfile xil_pn:name="../src/adderTest.v"/>
+      <outfile xil_pn:name="../src/bloodAbnormalityTest.v"/>
+      <outfile xil_pn:name="../src/comparator3bit.v"/>
+      <outfile xil_pn:name="../src/fallingTest.v"/>
+      <outfile xil_pn:name="../src/multiplierTest.v"/>
+      <outfile xil_pn:name="../src/onesCounter4bit.v"/>
+      <outfile xil_pn:name="../src/pressureTest.v"/>
+      <outfile xil_pn:name="../src/temperatureTest.v"/>
     </transform>
-    <transform xil_pn:end_ts="1576535547" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3152256065744818310" xil_pn:start_ts="1576535547">
+    <transform xil_pn:end_ts="1576537273" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5513275388178312033" xil_pn:start_ts="1576537273">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1576535547" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4625552349187077314" xil_pn:start_ts="1576535547">
+    <transform xil_pn:end_ts="1576537273" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3206040284907822761" xil_pn:start_ts="1576537273">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -92,19 +97,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1576535635" xil_pn:in_ck="-5412289641384837442" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1576535635">
+    <transform xil_pn:end_ts="1576537273" xil_pn:in_ck="-4879801923824959461" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1576537273">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../Adder8bit.v"/>
-      <outfile xil_pn:name="../MUX4_1.v"/>
-      <outfile xil_pn:name="../Multiplier.v"/>
-      <outfile xil_pn:name="../adderTest.v"/>
-      <outfile xil_pn:name="../bloodAbnormalityTest.v"/>
-      <outfile xil_pn:name="../comparator3bit.v"/>
-      <outfile xil_pn:name="../fallingTest.v"/>
-      <outfile xil_pn:name="../multiplierTest.v"/>
-      <outfile xil_pn:name="../onesCounter4bit.v"/>
-      <outfile xil_pn:name="../pressureTest.v"/>
+      <outfile xil_pn:name="../src/Adder8bit.v"/>
       <outfile xil_pn:name="../src/BloodAbnormalityDetector.v"/>
       <outfile xil_pn:name="../src/BloodPHAnalyzer.v"/>
       <outfile xil_pn:name="../src/BloodTypeClassification.v"/>
@@ -113,29 +109,47 @@
       <outfile xil_pn:name="../src/GlycemicIndexCalculator.v"/>
       <outfile xil_pn:name="../src/HealthcareSystemFirstPhase.v"/>
       <outfile xil_pn:name="../src/HealthcareSystemFirstPhaseTestbench.v"/>
+      <outfile xil_pn:name="../src/MUX4_1.v"/>
+      <outfile xil_pn:name="../src/Multiplier.v"/>
       <outfile xil_pn:name="../src/ParityErrorChecker.v"/>
       <outfile xil_pn:name="../src/PressureAbnormalityDetector.v"/>
       <outfile xil_pn:name="../src/PressureAnalyzer.v"/>
       <outfile xil_pn:name="../src/TemperatureAbnormalityDetector.v"/>
       <outfile xil_pn:name="../src/TemperatureAnalyzer.v"/>
       <outfile xil_pn:name="../src/TemperatureCalculator.v"/>
-      <outfile xil_pn:name="../temperatureTest.v"/>
+      <outfile xil_pn:name="../src/adderTest.v"/>
+      <outfile xil_pn:name="../src/bloodAbnormalityTest.v"/>
+      <outfile xil_pn:name="../src/comparator3bit.v"/>
+      <outfile xil_pn:name="../src/fallingTest.v"/>
+      <outfile xil_pn:name="../src/multiplierTest.v"/>
+      <outfile xil_pn:name="../src/onesCounter4bit.v"/>
+      <outfile xil_pn:name="../src/pressureTest.v"/>
+      <outfile xil_pn:name="../src/temperatureTest.v"/>
     </transform>
-    <transform xil_pn:end_ts="1576535637" xil_pn:in_ck="-5412289641384837442" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3516377571447186222" xil_pn:start_ts="1576535635">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1576537276" xil_pn:in_ck="-4879801923824959461" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1105277902824260700" xil_pn:start_ts="1576537273">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="bloodAbnormalityTest_beh.prj"/>
+      <outfile xil_pn:name="bloodAbnormalityTest_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1576535522" xil_pn:in_ck="9122994832820273558" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4612244117314860017" xil_pn:start_ts="1576535522">
-      <status xil_pn:value="AbortedRun"/>
+    <transform xil_pn:end_ts="1576537277" xil_pn:in_ck="9122994832820273558" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4612244117314860017" xil_pn:start_ts="1576537276">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForced"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="bloodAbnormalityTest_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1576525167" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1576525167">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1576525167" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3089735426695291724" xil_pn:start_ts="1576525167">
       <status xil_pn:value="SuccessfullyRun"/>

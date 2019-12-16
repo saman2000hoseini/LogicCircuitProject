@@ -5,14 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="661" delta="unknown" >"C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/../src/ParityErrorChecker.v" Line 21: Non-net port <arg fmt="%s" index="1">data</arg> cannot be of mode <arg fmt="%s" index="2">input</arg>
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/../src/ParityErrorChecker.v" Line 23: Target &lt;<arg fmt="%s" index="1">error</arg>&gt; of concurrent assignment or output port connection should be a net type.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"C:/Users/Saman/LogicCircuitDesignProjectFirstPhase/prj/../src/ParityErrorChecker.v" Line 20: Module &lt;<arg fmt="%s" index="1">ParityErrorChecker</arg>&gt; ignored due to previous errors.
-</msg>
-
 </messages>
 
