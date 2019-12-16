@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.40 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.40 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: HealthcareSystemFirstPhase.prj
 
@@ -104,11 +104,15 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
+Compiling verilog file "../dec24.v" in library work
 Compiling verilog file "../MUX4_1.v" in library work
+Module <dec24> compiled
 Compiling verilog file "../Multiplier.v" in library work
 Module <MUX4_1> compiled
-Compiling verilog file "../Adder8bit.v" in library work
+Compiling verilog file "../dec4_16.v" in library work
 Module <Multiplier> compiled
+Compiling verilog file "../Adder8bit.v" in library work
+Module <dec4_16> compiled
 Compiling verilog file "../src/TemperatureCalculator.v" in library work
 Module <Adder8bit> compiled
 Compiling verilog file "../src/TemperatureAnalyzer.v" in library work
@@ -123,8 +127,10 @@ Compiling verilog file "../src/BloodTypeClassification.v" in library work
 Module <Comparator8Bit> compiled
 Compiling verilog file "../src/BloodPHAnalyzer.v" in library work
 Module <BloodTypeClassification> compiled
-Compiling verilog file "../src/TemperatureAbnormalityDetector.v" in library work
+Compiling verilog file "../onesCounter4bit.v" in library work
 Module <BloodPHAnalyzer> compiled
+Compiling verilog file "../src/TemperatureAbnormalityDetector.v" in library work
+Module <onesCounter4bit> compiled
 Compiling verilog file "../src/PressureAbnormalityDetector.v" in library work
 Module <TemperatureAbnormalityDetector> compiled
 Compiling verilog file "../src/GlycemicIndexCalculator.v" in library work
@@ -153,6 +159,8 @@ Analyzing hierarchy for module <FallingDetector> in library <work>.
 
 Analyzing hierarchy for module <TemperatureAbnormalityDetector> in library <work>.
 
+Analyzing hierarchy for module <GlycemicIndexCalculator> in library <work>.
+
 Analyzing hierarchy for module <ParityErrorChecker> in library <work>.
 
 Analyzing hierarchy for module <PressureAnalyzer> in library <work>.
@@ -167,18 +175,23 @@ Analyzing hierarchy for module <TemperatureCalculator> in library <work>.
 
 Analyzing hierarchy for module <TemperatureAnalyzer> in library <work>.
 
+Analyzing hierarchy for module <Adder8bit> in library <work>.
+
+Analyzing hierarchy for module <onesCounter4bit> in library <work>.
+
 Analyzing hierarchy for module <MUX4_1> in library <work>.
 
 Analyzing hierarchy for module <Multiplier> in library <work>.
 
-Analyzing hierarchy for module <Adder8bit> in library <work>.
+Analyzing hierarchy for module <dec4_16> in library <work>.
+
+Analyzing hierarchy for module <dec24> in library <work>.
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing top module <HealthcareSystemFirstPhase>.
-WARNING:Xst:2211 - "../src/GlycemicIndexCalculator.v" line 77: Instantiating black box module <GlycemicIndexCalculator>.
 Module <HealthcareSystemFirstPhase> is correct for synthesis.
  
 Analyzing module <PressureAbnormalityDetector> in library <work>.
@@ -222,6 +235,18 @@ Module <Adder8bit> is correct for synthesis.
  
 Analyzing module <TemperatureAnalyzer> in library <work>.
 Module <TemperatureAnalyzer> is correct for synthesis.
+ 
+Analyzing module <GlycemicIndexCalculator> in library <work>.
+Module <GlycemicIndexCalculator> is correct for synthesis.
+ 
+Analyzing module <onesCounter4bit> in library <work>.
+Module <onesCounter4bit> is correct for synthesis.
+ 
+Analyzing module <dec4_16> in library <work>.
+Module <dec4_16> is correct for synthesis.
+ 
+Analyzing module <dec24> in library <work>.
+Module <dec24> is correct for synthesis.
  
 
 =========================================================================
@@ -290,6 +315,11 @@ WARNING:Xst:647 - Input <cin> is never used. This port will be preserved and lef
 Unit <Adder8bit> synthesized.
 
 
+Synthesizing Unit <dec24>.
+    Related source file is "../dec24.v".
+Unit <dec24> synthesized.
+
+
 Synthesizing Unit <PressureAbnormalityDetector>.
     Related source file is "../src/PressureAbnormalityDetector.v".
 Unit <PressureAbnormalityDetector> synthesized.
@@ -314,6 +344,11 @@ WARNING:Xst:646 - Signal <res<2:0>> is assigned but never used. This unconnected
 Unit <TemperatureCalculator> synthesized.
 
 
+Synthesizing Unit <dec4_16>.
+    Related source file is "../dec4_16.v".
+Unit <dec4_16> synthesized.
+
+
 Synthesizing Unit <BloodAbnormalityDetector>.
     Related source file is "../src/BloodAbnormalityDetector.v".
 Unit <BloodAbnormalityDetector> synthesized.
@@ -322,6 +357,30 @@ Unit <BloodAbnormalityDetector> synthesized.
 Synthesizing Unit <TemperatureAbnormalityDetector>.
     Related source file is "../src/TemperatureAbnormalityDetector.v".
 Unit <TemperatureAbnormalityDetector> synthesized.
+
+
+Synthesizing Unit <onesCounter4bit>.
+    Related source file is "../onesCounter4bit.v".
+WARNING:Xst:646 - Signal <w<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w<2:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor4 for signal <out<0>>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <onesCounter4bit> synthesized.
+
+
+Synthesizing Unit <GlycemicIndexCalculator>.
+    Related source file is "../src/GlycemicIndexCalculator.v".
+WARNING:Xst:1780 - Signal <w1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <uselesss> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <useless> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <res<8:6>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 3-bit adder carry out for signal <glycemicIndex$addsub0000>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <GlycemicIndexCalculator> synthesized.
 
 
 Synthesizing Unit <HealthcareSystemFirstPhase>.
@@ -335,13 +394,15 @@ HDL Synthesis Report
 Macro Statistics
 # Multipliers                                          : 1
  4x4-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 1
- 8-bit adder carry out                                 : 1
+# Adders/Subtractors                                   : 3
+ 3-bit adder carry out                                 : 1
+ 8-bit adder carry out                                 : 2
 # Comparators                                          : 5
  8-bit comparator equal                                : 1
  8-bit comparator greater                              : 2
  8-bit comparator less                                 : 2
-# Xors                                                 : 1
+# Xors                                                 : 3
+ 1-bit xor4                                            : 2
  1-bit xor6                                            : 1
 
 =========================================================================
@@ -365,13 +426,15 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # Multipliers                                          : 1
  4x4-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 1
- 8-bit adder carry out                                 : 1
+# Adders/Subtractors                                   : 3
+ 3-bit adder carry out                                 : 1
+ 8-bit adder carry out                                 : 2
 # Comparators                                          : 5
  8-bit comparator equal                                : 1
  8-bit comparator greater                              : 2
  8-bit comparator less                                 : 2
-# Xors                                                 : 1
+# Xors                                                 : 3
+ 1-bit xor4                                            : 2
  1-bit xor6                                            : 1
 
 =========================================================================
@@ -382,11 +445,9 @@ Macro Statistics
 
 Optimizing unit <HealthcareSystemFirstPhase> ...
 
+Optimizing unit <GlycemicIndexCalculator> ...
+
 Mapping all equations...
-WARNING:Xst:2036 - Inserting OBUF on port <glycemicIndex<3>> driven by black box <GlycemicIndexCalculator>. Possible simulation mismatch.
-WARNING:Xst:2036 - Inserting OBUF on port <glycemicIndex<2>> driven by black box <GlycemicIndexCalculator>. Possible simulation mismatch.
-WARNING:Xst:2036 - Inserting OBUF on port <glycemicIndex<1>> driven by black box <GlycemicIndexCalculator>. Possible simulation mismatch.
-WARNING:Xst:2036 - Inserting OBUF on port <glycemicIndex<0>> driven by black box <GlycemicIndexCalculator>. Possible simulation mismatch.
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block HealthcareSystemFirstPhase, actual ratio is 0.
 
@@ -423,17 +484,17 @@ Design Statistics
 # IOs                              : 61
 
 Cell Usage :
-# BELS                             : 27
+# BELS                             : 57
 #      GND                         : 1
-#      LUT2                        : 9
-#      LUT4                        : 8
+#      LUT2                        : 11
+#      LUT3                        : 7
+#      LUT4                        : 26
 #      MUXCY                       : 8
+#      MUXF5                       : 3
 #      VCC                         : 1
 # IO Buffers                       : 38
 #      IBUF                        : 30
 #      OBUF                        : 8
-# Others                           : 1
-#      GlycemicIndexCalculator     : 1
 =========================================================================
 
 Device utilization summary:
@@ -441,8 +502,8 @@ Device utilization summary:
 
 Selected Device : 3s400pq208-5 
 
- Number of Slices:                        9  out of   3584     0%  
- Number of 4 input LUTs:                 17  out of   7168     0%  
+ Number of Slices:                       25  out of   3584     0%  
+ Number of 4 input LUTs:                 44  out of   7168     0%  
  Number of IOs:                          61
  Number of bonded IOBs:                  38  out of    141    26%  
 
@@ -477,7 +538,7 @@ Speed Grade: -5
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 11.717ns
+   Maximum combinational path delay: 16.425ns
 
 Timing Detail:
 --------------
@@ -485,37 +546,41 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 62 / 14
+  Total number of paths / destination ports: 800 / 6
 -------------------------------------------------------------------------
-Delay:               11.717ns (Levels of Logic = 6)
-  Source:            fdSensorValue<4> (PAD)
-  Destination:       fallDetected (PAD)
+Delay:               16.425ns (Levels of Logic = 10)
+  Source:            bloodSensor<0> (PAD)
+  Destination:       glycemicIndex<3> (PAD)
 
-  Data Path: fdSensorValue<4> to fallDetected
+  Data Path: bloodSensor<0> to glycemicIndex<3>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   0.715   1.040  fdSensorValue_4_IBUF (fdSensorValue_4_IBUF)
-     LUT4:I0->O            1   0.479   0.976  FallingDetectorUnit/fallDetected93 (FallingDetectorUnit/fallDetected93)
-     LUT2:I0->O            1   0.479   0.740  FallingDetectorUnit/fallDetected121 (FallingDetectorUnit/fallDetected121)
-     LUT4:I2->O            1   0.479   0.740  FallingDetectorUnit/fallDetected147_SW0 (N5)
-     LUT4:I2->O            1   0.479   0.681  FallingDetectorUnit/fallDetected147 (fallDetected_OBUF)
-     OBUF:I->O                 4.909          fallDetected_OBUF (fallDetected)
+     IBUF:I->O             7   0.715   1.201  bloodSensor_0_IBUF (bloodSensor_0_IBUF)
+     LUT2:I0->O            2   0.479   0.768  GlycemicIndexCalculator/abs_2_or000011 (GlycemicIndexCalculator/N3)
+     LUT4:I3->O            4   0.479   0.838  GlycemicIndexCalculator/w21<7>11 (GlycemicIndexCalculator/N17)
+     LUT3:I2->O            1   0.479   0.000  GlycemicIndexCalculator/abs_5_or00001 (GlycemicIndexCalculator/abs_5_or0000)
+     MUXF5:I1->O           4   0.314   0.949  GlycemicIndexCalculator/abs_5_or0000_f5 (GlycemicIndexCalculator/abs<5>)
+     LUT4:I1->O            1   0.479   0.740  GlycemicIndexCalculator/Madd_glycemicIndex_addsub0000_lut<1>34 (GlycemicIndexCalculator/Madd_glycemicIndex_addsub0000_lut<1>34)
+     LUT4:I2->O            2   0.479   1.040  GlycemicIndexCalculator/Madd_glycemicIndex_addsub0000_lut<1>69 (GlycemicIndexCalculator/Madd_glycemicIndex_addsub0000_lut<1>)
+     LUT4:I0->O            2   0.479   0.915  GlycemicIndexCalculator/Madd_glycemicIndex_addsub0000_xor<2>111 (GlycemicIndexCalculator/N2)
+     LUT2:I1->O            1   0.479   0.681  GlycemicIndexCalculator/Madd_glycemicIndex_addsub0000_xor<2>12 (glycemicIndex_2_OBUF)
+     OBUF:I->O                 4.909          glycemicIndex_2_OBUF (glycemicIndex<2>)
     ----------------------------------------
-    Total                     11.717ns (7.540ns logic, 4.177ns route)
-                                       (64.4% logic, 35.6% route)
+    Total                     16.425ns (9.291ns logic, 7.134ns route)
+                                       (56.6% logic, 43.4% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.57 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.82 secs
  
 --> 
 
-Total memory usage is 4521776 kilobytes
+Total memory usage is 4523504 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   20 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
