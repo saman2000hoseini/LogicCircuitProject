@@ -22,7 +22,10 @@ module PressureAnalyzer(
         pWarning);
 input [4:0] pData;
 output pWarning;
-assign pWarning = (~pData[4] & pData[3]) | (pData[4] & ((~pData[3] & ~pData[0]) | (~pData[3] & ~pData[2]) | (~pData[3] & ~pData[0])));
-   // write your code here, please.
+wire pNot4,pNot3,pNot0,pNot2,and1,and2,and3,and4;
+not n1(pNot4,pData[4]),n2(pNot3,pData[3]),n3(pNot0,pData[0]),n4(pNot2,pData[2]);
+and a1(and1,pNot4, pData[3]),a2(and2,pData[4],pNot3, pNot0),a3(and3,pData[4],pNot3, pNot2),a4(and4,pData[4],pNot3, pNot0);
+or oa(pWarning,and1,and2,and3,and4);
+//assign pWarning = (~pData[4] & pData[3]) | (pData[4] & ((~pData[3] & ~pData[0]) | (~pData[3] & ~pData[2]) | (~pData[3] & ~pData[0])));
 endmodule
 

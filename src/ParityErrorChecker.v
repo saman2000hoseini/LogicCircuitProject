@@ -21,8 +21,7 @@ module ParityErrorChecker(
         input [5:0] data,
         output error);
 wire parity;
-xor x(parity,data[0],data[4],data[3],data[2],data[1]);
-assign error = parity == data[5] ? 0 : 1;
-   // write your code here, please.
+xor x(parity,data[0],data[4],data[3],data[2],data[1],data[0]);
+assign error = parity == 0 ? 0 : 1;
 endmodule
 

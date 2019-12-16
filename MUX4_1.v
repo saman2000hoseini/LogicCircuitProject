@@ -23,5 +23,8 @@ module MUX4_1(
     input [1:0] select,
     output out
     );
-	assign out = (D[0] & ~select[1] & ~select[0]) | (D[1] & ~select[1] & select[0]) | (D[2] & select[1] & ~select[0]) | (D[3] & select[1] & select[0]);
+	wire and1,and2,and3,and4;
+	and a1(and1,D[0],~select[1],~select[0]),a2(and2,D[1],~select[1],select[0]),a3(and3,D[2],select[1],~select[0]),a4(and4,D[3],select[1],select[0]);
+	or oa(out,and1,and2,and3,and4);
+//assign out = (D[0] & ~select[1] & ~select[0]) | (D[1] & ~select[1] & select[0]) | (D[2] & select[1] & ~select[0]) | (D[3] & select[1] & select[0]);
 endmodule

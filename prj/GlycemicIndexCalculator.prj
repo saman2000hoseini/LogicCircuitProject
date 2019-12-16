@@ -1,0 +1,5 @@
+verilog work "../dec24.v"
+verilog work "../dec4_16.v"
+verilog work "../onesCounter4bit.v"
+verilog work "../Adder8bit.v"
+verilog work "../src/GlycemicIndexCalculator.v"

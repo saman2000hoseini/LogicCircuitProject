@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/University/Logic Lab/LogicCircuitProject/prj/GlycemicIndex_test_isim_beh.exe" -prj "E:/University/Logic Lab/LogicCircuitProject/prj/GlycemicIndex_test_beh.prj" "work.GlycemicIndex_test" "work.glbl" 
