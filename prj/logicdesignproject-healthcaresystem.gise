@@ -25,7 +25,10 @@
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="HealthcareSystemFirstPhase_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LogicHealthcareSystem.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LogicHealthcareSystem.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LogicHealthcareSystem.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LogicHealthcareSystem.ngr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LogicHealthcareSystem.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LogicHealthcareSystem.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LogicHealthcareSystem.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LogicHealthcareSystem.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="LogicHealthcareSystem_envsettings.html"/>
@@ -52,6 +55,10 @@
     <transform xil_pn:end_ts="1579952983" xil_pn:in_ck="2196219114535853970" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579952983">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../nervousTest.v"/>
       <outfile xil_pn:name="../src/rtl/benchs/LogicHealthcareSystemTestBench.v"/>
       <outfile xil_pn:name="../src/rtl/modules/Adder8bit.v"/>
@@ -92,6 +99,11 @@
     <transform xil_pn:end_ts="1579952983" xil_pn:in_ck="2196219114535853970" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579952983">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../nervousTest.v"/>
       <outfile xil_pn:name="../src/rtl/benchs/LogicHealthcareSystemTestBench.v"/>
       <outfile xil_pn:name="../src/rtl/modules/Adder8bit.v"/>
@@ -120,7 +132,11 @@
     <transform xil_pn:end_ts="1579952986" xil_pn:in_ck="2196219114535853970" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4413859243573285902" xil_pn:start_ts="1579952983">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -132,6 +148,8 @@
     <transform xil_pn:end_ts="1579952987" xil_pn:in_ck="3904425118896009628" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6900788062344185585" xil_pn:start_ts="1579952986">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
@@ -166,14 +184,15 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579926506" xil_pn:in_ck="-5287514935006745768" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-7880303650989007374" xil_pn:start_ts="1579926502">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1579934758" xil_pn:in_ck="-1685049312072866854" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-7880303650989007374" xil_pn:start_ts="1579934749">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LogicHealthcareSystem.lso"/>
+      <outfile xil_pn:name="LogicHealthcareSystem.ngc"/>
+      <outfile xil_pn:name="LogicHealthcareSystem.ngr"/>
       <outfile xil_pn:name="LogicHealthcareSystem.prj"/>
+      <outfile xil_pn:name="LogicHealthcareSystem.stx"/>
       <outfile xil_pn:name="LogicHealthcareSystem.syr"/>
       <outfile xil_pn:name="LogicHealthcareSystem.xst"/>
       <outfile xil_pn:name="LogicHealthcareSystem_xst.xrpt"/>

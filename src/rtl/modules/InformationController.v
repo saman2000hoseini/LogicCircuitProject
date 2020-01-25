@@ -30,11 +30,35 @@ input clock;
 input request;
 input confirm;
 input [7:0] password;
-input [7:0] key;
+input [7:0] user;
 
-output writeRegP;
-output writeRegQ;
+output reg writeRegP;
+output reg writeRegQ;
 	
-	// write your code here, please.
-	
+parameter S0 = 3'b000, S1 = 3'b001, S2 = 3'b101, S3 = 3'b111;
+
+reg [2:0] state = S0;
+
+always @(posedge clock)
+begin
+	if(~request) state = S0;
+	else
+	case(state)
+		S0 : 
+			begin
+				if(request) state = S1;
+			end
+		S1 : if(confirm) 
+					if(user == password)
+						state = S2;
+					else state = S3;
+				else
+					state = S1;
+		S2 :if(confirm)
+				begin
+					writeRegQ = user[7];
+					writeRegP = ~user[7];
+				end
+	endcase
+end
 endmodule

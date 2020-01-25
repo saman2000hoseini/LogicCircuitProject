@@ -70,7 +70,7 @@ wire nervousAbnormality;
     .bloodType             (bloodType             ),
     .fdSensorValue         (fdSensorValue         ),
     .fdFactoryValue        (fdFactoryValue        ),
-    .bloodSensor           (bloodSensor           ),
+//    .bloodSensor           (bloodSensor           ),
     .factoryBaseTemp       (factoryBaseTemp       ),
     .factoryTempCoef       (factoryTempCoef       ),
     .tempSensorValue       (tempSensorValue       ),

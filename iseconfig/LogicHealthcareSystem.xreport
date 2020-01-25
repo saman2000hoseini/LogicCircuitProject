@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-01-24T23:57:34</DateModified>
+  <DateModified>2020-01-24T21:57:43</DateModified>
   <ModuleName>LogicHealthcareSystem</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Saman/Downloads/LogicDesignProject/iseconfig/LogicHealthcareSystem.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Saman/Downloads/LogicDesignProject/prj\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/iseconfig/LogicHealthcareSystem.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj\</ImplementationReportsDirectory>
   <DateInitialized>2020-01-24T19:46:34</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -31,7 +31,7 @@ input request;
 input confirm;
 
 input [7:0] key;
-input [7:0] data;
+input [7:0] inputData;
 
 output [6:0] dataP;
 output [6:0] dataQ;
