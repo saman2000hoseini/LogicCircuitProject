@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ali/Projects/Academic/logicdesignproject-healthcaresystem/prj/HealthcareSystemFirstPhase.ncd
+OUTFILE=/home/ali/Projects/Academic/logicdesignproject-healthcaresystem/prj/HealthcareSystemFirstPhase.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=/home/ali/Projects/Academic/logicdesignproject-healthcaresystem/prj
+LICENSE=WebPack
+USER_INFO=_

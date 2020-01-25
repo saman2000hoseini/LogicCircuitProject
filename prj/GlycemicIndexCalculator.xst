@@ -1,5 +1,0 @@
-set -tmpdir "E:/University/Logic Lab/LogicCircuitProject/prj/xst/projnav.tmp"
-set -xsthdpdir "E:/University/Logic Lab/LogicCircuitProject/prj/xst"
-elaborate
--ifn GlycemicIndexCalculator.prj
--ifmt mixed

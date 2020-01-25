@@ -1,5 +1,0 @@
-verilog isim_temp "../dec24.v"
-verilog isim_temp "../dec4_16.v"
-verilog isim_temp "../onesCounter4bit.v"
-verilog isim_temp "../onesCounter_test.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

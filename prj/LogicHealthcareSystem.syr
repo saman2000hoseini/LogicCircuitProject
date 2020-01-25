@@ -1,0 +1,166 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: LogicHealthcareSystem.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LogicHealthcareSystem.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LogicHealthcareSystem"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : LogicHealthcareSystem
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../src/rtl/modules/comparator3bit.v" in library work
+Compiling verilog file "../src/rtl/modules/Multiplier.v" in library work
+Module <comparator3bit> compiled
+Compiling verilog file "../src/rtl/modules/Comparator8Bit.v" in library work
+Module <Multiplier> compiled
+Compiling verilog file "../src/rtl/modules/Adder8bit.v" in library work
+Module <Comparator8Bit> compiled
+Module <Adder8bit> compiled
+Compiling verilog file "../src/rtl/modules/TemperatureCalculator.v" in library work
+Module <Carry> compiled
+Compiling verilog file "../src/rtl/modules/TemperatureAnalyzer.v" in library work
+Module <TemperatureCalculator> compiled
+Compiling verilog file "../src/rtl/modules/PressureAnalyzer.v" in library work
+Module <TemperatureAnalyzer> compiled
+Compiling verilog file "../src/rtl/modules/ParityErrorChecker.v" in library work
+Module <PressureAnalyzer> compiled
+Compiling verilog file "../src/rtl/modules/BloodTypeClassification.v" in library work
+Module <ParityErrorChecker> compiled
+Compiling verilog file "../src/rtl/modules/BloodPHAnalyzer.v" in library work
+Module <BloodTypeClassification> compiled
+Compiling verilog file "../src/rtl/modules/TemperatureAbnormalityDetector.v" in library work
+Module <BloodPHAnalyzer> compiled
+Compiling verilog file "../src/rtl/modules/Register7Bit.v" in library work
+Module <TemperatureAbnormalityDetector> compiled
+Compiling verilog file "../src/rtl/modules/PressureAbnormalityDetector.v" in library work
+Module <Register7Bit> compiled
+Compiling verilog file "../src/rtl/modules/InformationController.v" in library work
+Module <PressureAbnormalityDetector> compiled
+ERROR:HDLCompilers:207 - "../src/rtl/modules/InformationController.v" line 33 Signal 'key' is not referenced in the module port list
+Compiling verilog file "../src/rtl/modules/FallingDetector.v" in library work
+ERROR:HDLCompilers:208 - "../src/rtl/modules/InformationController.v" line 25 Port reference 'user' was not declared as input, inout or output
+Module <InformationController> compiled
+Compiling verilog file "../src/rtl/modules/BloodAbnormalityDetector.v" in library work
+Module <FallingDetector> compiled
+Compiling verilog file "../src/rtl/modules/NervousShockDetector.v" in library work
+Module <BloodAbnormalityDetector> compiled
+Compiling verilog file "../src/rtl/modules/LogicHealthcareSystemController.v" in library work
+Module <NervousShockDetector> compiled
+Compiling verilog file "../src/rtl/modules/HealthcareSystemFirstPhase.v" in library work
+Module <LogicHealthcareSystemController> compiled
+Compiling verilog file "../src/rtl/modules/ConfigurationUnit.v" in library work
+Module <HealthcareSystemFirstPhase> compiled
+ERROR:HDLCompilers:207 - "../src/rtl/modules/ConfigurationUnit.v" line 34 Signal 'data' is not referenced in the module port list
+ERROR:HDLCompilers:28 - "../src/rtl/modules/ConfigurationUnit.v" line 45 'inputData' has not been declared
+ERROR:HDLCompilers:28 - "../src/rtl/modules/ConfigurationUnit.v" line 51 'inputData' has not been declared
+ERROR:HDLCompilers:28 - "../src/rtl/modules/ConfigurationUnit.v" line 59 'inputData' has not been declared
+Compiling verilog file "../src/rtl/modules/LogicHealthcareSystem.v" in library work
+ERROR:HDLCompilers:208 - "../src/rtl/modules/ConfigurationUnit.v" line 25 Port reference 'inputData' was not declared as input, inout or output
+Module <ConfigurationUnit> compiled
+ERROR:HDLCompilers:28 - "../src/rtl/modules/LogicHealthcareSystem.v" line 73 'bloodSensor' has not been declared
+Module <LogicHealthcareSystem> compiled
+Analysis of file <"LogicHealthcareSystem.prj"> failed.
+--> 
+
+Total memory usage is 4503784 kilobytes
+
+Number of errors   :    8 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

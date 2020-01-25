@@ -1,0 +1,28 @@
+Command line:
+   nervousTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53864
+
+Sat Jan 25 03:49:48 2020
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5164.05 Meg
+
+ Total Signals          : 16
+ Total Nets             : 17
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 40
+ Total Scalar Nets and Variables : 196
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5164.05 Meg
+
+Sat Jan 25 03:49:54 2020
+
