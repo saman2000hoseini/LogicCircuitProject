@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Saman/Downloads/LogicDesignProject/prj/nervousTest_isim_beh.exe" -prj "C:/Users/Saman/Downloads/LogicDesignProject/prj/nervousTest_beh.prj" "work.nervousTest" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/InfoTest_isim_beh.exe" -prj "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/InfoTest_beh.prj" "work.InfoTest" "work.glbl" 

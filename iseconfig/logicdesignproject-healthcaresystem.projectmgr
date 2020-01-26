@@ -17,6 +17,9 @@
          <ClosedNode>/LogicHealthcareSystem C:|Users|Saman|Downloads|LogicDesignProject|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/FallingDetectorUnit - FallingDetector</ClosedNode>
          <ClosedNode>/LogicHealthcareSystem C:|Users|Saman|Downloads|LogicDesignProject|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/PressureAbnormalityDetectorUnit - PressureAbnormalityDetector</ClosedNode>
          <ClosedNode>/LogicHealthcareSystem C:|Users|Saman|Downloads|LogicDesignProject|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/TemperatureAbnormalityDetectorUnit - TemperatureAbnormalityDetector</ClosedNode>
+         <ClosedNode>/LogicHealthcareSystem C:|Users|Saman|Xilinx|Projects|LogicCircuitProject|src|rtl|modules|LogicHealthcareSystem.v/ConfigurationUnit - ConfigurationUnit</ClosedNode>
+         <ClosedNode>/LogicHealthcareSystem C:|Users|Saman|Xilinx|Projects|LogicCircuitProject|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase</ClosedNode>
+         <ClosedNode>/LogicHealthcareSystem C:|Users|Saman|Xilinx|Projects|LogicCircuitProject|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector</ClosedNode>
          <ClosedNode>/LogicHealthcareSystem |home|ali|Projects|Academic|LogicDesignProject-AUT-HealthcareSystem|src|rtl|modules|LogicHealthcareSystem.v/ConfigurationUnit - ConfigurationUnit</ClosedNode>
          <ClosedNode>/LogicHealthcareSystem |home|ali|Projects|Academic|LogicDesignProject-AUT-HealthcareSystem|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector</ClosedNode>
          <ClosedNode>/LogicHealthcareSystem |home|ali|Projects|Academic|LogicDesignProject-AUT-HealthcareSystem|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/FallingDetectorUnit - FallingDetector</ClosedNode>
@@ -29,13 +32,13 @@
          <ClosedNode>/LogicHealthcareSystem |home|ali|Projects|Academic|logicdesignproject-healthcaresystem|src|rtl|modules|LogicHealthcareSystem.v/HealthcareSystemFirstPhaseUnit - HealthcareSystemFirstPhase/TemperatureAbnormalityDetectorUnit - TemperatureAbnormalityDetector</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xc3s400-5pq208</SelectedItem>
+         <SelectedItem>LogicHealthcareSystem (C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/src/rtl/modules/LogicHealthcareSystem.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002b4000000020000000000000000000000000200000064ffffffff000000810000000300000002000002b40000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002a0000000020000000000000000000000000200000064ffffffff000000810000000300000002000002a00000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>xc3s400-5pq208</CurrentItem>
+      <CurrentItem>LogicHealthcareSystem (C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/src/rtl/modules/LogicHealthcareSystem.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -85,12 +88,12 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
@@ -102,17 +105,18 @@
          <ClosedNode>/HealthcareSystemFirstPhaseTestbench |home|ali|Projects|Academic|logicdesignproject-healthcaresystem|src|rtl|benchs|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/BloodAbnormalityDetectorUnit - BloodAbnormalityDetector</ClosedNode>
          <ClosedNode>/HealthcareSystemFirstPhaseTestbench |home|ali|Projects|Academic|logicdesignproject-healthcaresystem|src|rtl|benchs|HealthcareSystemFirstPhaseTestbench.v/HealthcareSystemFirstPhaseUnderTest - HealthcareSystemFirstPhase/PressureAbnormalityDetectorUnit - PressureAbnormalityDetector</ClosedNode>
          <ClosedNode>/LogicHealthcareSystemTestBench C:|Users|Saman|Downloads|LogicDesignProject|src|rtl|benchs|LogicHealthcareSystemTestBench.v/uut - LogicHealthcareSystem</ClosedNode>
+         <ClosedNode>/LogicHealthcareSystemTestBench C:|Users|Saman|Xilinx|Projects|LogicCircuitProject|src|rtl|benchs|LogicHealthcareSystemTestBench.v/uut - LogicHealthcareSystem</ClosedNode>
          <ClosedNode>/LogicHealthcareSystemTestBench |home|ali|Projects|Academic|LogicDesignProject-AUT-HealthcareSystem|src|rtl|benchs|LogicHealthcareSystemTestBench.v</ClosedNode>
          <ClosedNode>/LogicHealthcareSystemTestBench |home|ali|Projects|Academic|logicdesignproject-healthcaresystem|src|rtl|benchs|LogicHealthcareSystemTestBench.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>nervousTest (C:/Users/Saman/Downloads/LogicDesignProject/nervousTest.v)</SelectedItem>
+         <SelectedItem>InfoTest (C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/InfoTest.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ba000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ba0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>nervousTest (C:/Users/Saman/Downloads/LogicDesignProject/nervousTest.v)</CurrentItem>
+      <CurrentItem>InfoTest (C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/InfoTest.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -120,13 +124,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>

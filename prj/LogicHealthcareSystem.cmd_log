@@ -8,3 +8,4 @@ xst -intstyle ise -ifn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/L
 xst -intstyle ise -ifn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.xst" -ofn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.syr" 
 xst -intstyle ise -ifn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.xst" -ofn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.syr" 
 xst -intstyle ise -ifn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.xst" -ofn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.syr" 
+xst -intstyle ise -ifn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.xst" -ofn "C:/Users/Saman/Xilinx/Projects/LogicCircuitProject/prj/LogicHealthcareSystem.syr" 

@@ -23,6 +23,9 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="HealthcareSystemFirstPhase_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InfoTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="InfoTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="InfoTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LogicHealthcareSystem.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LogicHealthcareSystem.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LogicHealthcareSystem.ngc"/>
@@ -39,9 +42,7 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nervousTest_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nervousTest_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="nervousTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -52,13 +53,15 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579952983" xil_pn:in_ck="2196219114535853970" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579952983">
+    <transform xil_pn:end_ts="1579944677" xil_pn:in_ck="2117133840840369890" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579944677">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../InfoTest.v"/>
       <outfile xil_pn:name="../nervousTest.v"/>
       <outfile xil_pn:name="../src/rtl/benchs/LogicHealthcareSystemTestBench.v"/>
       <outfile xil_pn:name="../src/rtl/modules/Adder8bit.v"/>
@@ -84,11 +87,11 @@
       <outfile xil_pn:name="../src/rtl/modules/TemperatureCalculator.v"/>
       <outfile xil_pn:name="../src/rtl/modules/comparator3bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1579951864" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5443993918491990231" xil_pn:start_ts="1579951864">
+    <transform xil_pn:end_ts="1579944418" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8005899102981900099" xil_pn:start_ts="1579944418">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579951864" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6172885058438047519" xil_pn:start_ts="1579951864">
+    <transform xil_pn:end_ts="1579944418" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4255028262502028037" xil_pn:start_ts="1579944418">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -96,7 +99,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579952983" xil_pn:in_ck="2196219114535853970" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579952983">
+    <transform xil_pn:end_ts="1579944677" xil_pn:in_ck="2117133840840369890" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579944677">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -104,6 +107,7 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../InfoTest.v"/>
       <outfile xil_pn:name="../nervousTest.v"/>
       <outfile xil_pn:name="../src/rtl/benchs/LogicHealthcareSystemTestBench.v"/>
       <outfile xil_pn:name="../src/rtl/modules/Adder8bit.v"/>
@@ -129,32 +133,30 @@
       <outfile xil_pn:name="../src/rtl/modules/TemperatureCalculator.v"/>
       <outfile xil_pn:name="../src/rtl/modules/comparator3bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1579952986" xil_pn:in_ck="2196219114535853970" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4413859243573285902" xil_pn:start_ts="1579952983">
+    <transform xil_pn:end_ts="1579944681" xil_pn:in_ck="2117133840840369890" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7443766953450281442" xil_pn:start_ts="1579944677">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="InfoTest_beh.prj"/>
+      <outfile xil_pn:name="InfoTest_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="nervousTest_beh.prj"/>
-      <outfile xil_pn:name="nervousTest_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1579952987" xil_pn:in_ck="3904425118896009628" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6900788062344185585" xil_pn:start_ts="1579952986">
+    <transform xil_pn:end_ts="1579944681" xil_pn:in_ck="-2500122535882825166" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7975555923359550619" xil_pn:start_ts="1579944681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="InfoTest_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="nervousTest_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1579921771" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1579921771">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -184,10 +186,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579934758" xil_pn:in_ck="-1685049312072866854" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-7880303650989007374" xil_pn:start_ts="1579934749">
+    <transform xil_pn:end_ts="1579944404" xil_pn:in_ck="-1685049312072866854" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-7880303650989007374" xil_pn:start_ts="1579944368">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LogicHealthcareSystem.lso"/>
       <outfile xil_pn:name="LogicHealthcareSystem.ngc"/>
       <outfile xil_pn:name="LogicHealthcareSystem.ngr"/>

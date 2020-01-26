@@ -90,6 +90,7 @@ wire nervousAbnormality;
     .clock  (clock  ),
     .request(request),
     .confirm(confirm),
+	 .inputData (data),
     .key    (key    ),
     .dataP  (dataP  ),
     .dataQ  (dataQ  )
